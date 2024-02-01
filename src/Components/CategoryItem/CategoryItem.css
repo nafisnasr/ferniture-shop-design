@@ -1,0 +1,17 @@
+/* Start CategoryItem Styles */
+.category-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+.category-box .category-img{
+    border-radius: 1.5rem;
+}
+.category-box .text {
+    margin: .3rem 0rem;
+    color: var(--black);
+    font-weight: 600;
+}
+/* End CategoryItem Styles */

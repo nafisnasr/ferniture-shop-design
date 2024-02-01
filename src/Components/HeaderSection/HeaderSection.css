@@ -1,0 +1,28 @@
+/* Headersection Styles */
+.headersection {
+  padding: 2rem;
+  width: 100%;
+  background-image: url("/public/images/header-sec-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.headersection .wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.headersection h1 {
+  font-weight: 700;
+}
+.headersection p{
+    margin: 1rem 0;
+    color: var(--black);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+/**/

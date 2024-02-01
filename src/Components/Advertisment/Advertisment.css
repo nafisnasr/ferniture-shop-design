@@ -1,0 +1,56 @@
+/* Advertisment Styles */
+.advertisment {
+  width: 100%;
+  background-color: var(--light-pink);
+}
+.advertisment-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advertisment .ad-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.advertisment .left-sec .title {
+  font-weight: bold;
+}
+.advertisment .left-sec .text {
+  font-size: 0.9rem;
+}
+.advertisment .left-sec button {
+  background-color: var(--light-brown);
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  height: 50px;
+  color: var(--white);
+  margin: 0.5rem 0rem;
+  font-weight: 500;
+}
+.advertisment .left-sec button:hover {
+  background-color: var(--hovered-brown);
+}
+.advertisment .right-sec {
+  position: relative;
+}
+.advertisment .right-sec .text-container {
+    position: absolute;
+    z-index: 9999;
+  bottom: 3rem;
+  left: 9rem;
+  background-color: #ffffffc2;
+  padding: 1rem;
+}
+.advertisment .right-sec .text-container .main-text{
+    font-weight: 700;
+}
+@media screen and (max-width:770px){
+    .rightsection{
+        display: noneّ;
+    }
+}

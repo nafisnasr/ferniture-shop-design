@@ -1,0 +1,85 @@
+/* Contact Styles */
+.contact {
+  width: 100%;
+  padding: 2rem;
+}
+.contact .contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.contact-text h2 {
+  font-weight: 400;
+}
+.contact-text p {
+  width: 60%;
+  color: #414141;
+}
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact .left-sec,
+.contact .right-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.contact .left-sec .contact-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem 0rem;
+}
+.contact .contact-box .text {
+  margin-left: 2rem;
+}
+.contact .contact-box p {
+  color: #414141;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+.contact .contact-box .icon {
+  font-size: 1.5rem;
+}
+.contact.right-sec {
+  padding: 1rem;
+}
+.contact .right-sec .input-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 0rem;
+  width: 100%;
+}
+.contact .input-box label {
+  margin-bottom: 0.7rem;
+}
+.contact .input-box input,
+.contact .input-box textarea {
+  padding: 0.5rem;
+  width: 80%;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 1px solid #414141;
+}
+.contact .right-sec .submit-btn {
+  width: 50%;
+  padding: 0.7rem;
+  border: none;
+  background-color: var(--light-brown);
+  color: var(--white);
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.submitted {
+  background-color: var(--hovered-brown);
+}
+
+/**/

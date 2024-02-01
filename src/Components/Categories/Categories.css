@@ -1,0 +1,11 @@
+/* Start Categories Styles */
+.categories {
+  width: 100%;
+}
+
+#categories .categories-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End Categories Styles */

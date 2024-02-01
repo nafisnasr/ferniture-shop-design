@@ -1,0 +1,32 @@
+/* Start allProducts Styles */
+.all-products {
+  padding: 2rem 0rem;
+  width: 100%;
+}
+.all-products-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.all-products .btn-container {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+.all-products .btn-container .see-more-btn {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  color: var(--light-brown);
+  border: 1px solid var(--light-brown);
+  background-color: transparent;
+  transition: all 0.3s;
+}
+.all-products .btn-container .see-more-btn:hover {
+  background-color: var(--hovered-brown);
+  color:var(--white);
+}
+/* End allProducts Styles */

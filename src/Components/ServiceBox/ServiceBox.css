@@ -1,0 +1,14 @@
+/* Services Box Styles */
+.service-box{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+.service-box .text-box{
+    margin-left: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+/**/
